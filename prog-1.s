@@ -16,6 +16,7 @@ badString:      .asciz      "Incorrect input\n"
 loopString:     .asciz      "%d\n"
 
                 .data
+                .align      8
 number:         .quad       0
 input:          .fill       maxLen, 1, 0
 
